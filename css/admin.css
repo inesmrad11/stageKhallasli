@@ -1,0 +1,161 @@
+/* Coolors Palette */
+:root {
+    --primary-color: #1D3556;
+    --secondary-color: #ADBBCA;
+    --accent-color: #93C021;
+    --neutral-color: #7D8EA1;
+    --light-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+body * {
+    font-family: 'poppins', sans-serif;
+}
+
+header * {
+    font-family: 'poppins', sans-serif;
+
+}
+
+h1 {
+    font-weight: 900; /* Make the text bold */
+}
+
+.mb-4 {
+    font-weight: 700; /* Adjust the boldness */
+}
+
+
+
+header {
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    padding: 15px 0;
+}
+
+header .navbar-brand img {
+    margin-right: 10px;
+}
+
+header .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+header .btn-link {
+    color: var(--primary-color);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header .btn-link:hover {
+    color: var(--accent-color);
+}
+
+header .btn-custom {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+    border: none;
+    padding: 10px 20px;
+}
+
+header .btn-custom:hover {
+    background-color: var(--secondary-color);
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.btn-custom {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border: none;
+    padding: 10px 20px;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: var(--accent-color);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles personnalisés du footer */
+  
+.logo-container {
+    margin-bottom: 60px;
+}
+
+.waves-container {
+    margin-bottom: 75px; /* Adjust this value as needed */
+}
+
+
+.footer {
+    background-color: var(--light-color);
+    padding: 40px 0;
+    color: var(--primary-color);
+}
+
+.footer h5 {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+.footer .social-icons a {
+    margin-right: 15px;
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+.footer .social-icons a:hover {
+    color: var(--accent-color);
+    font-size: 24px;
+}
+
+.footer .social-icons a i {
+    font-size: 24px;
+
+}
+
+.footer .copy {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid var(--secondary-color);
+    padding-top: 20px;
+}
+
+.khallasli {
+    color: var(--accent-color);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.about-paragraph {
+    margin-top: 20px;
+    line-height: 2.5;
+}

@@ -1,0 +1,25 @@
+body {
+    margin: auto;
+    padding: auto;
+}
+.main-container{
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.flex-alignmenet{
+    justify-content: space-evenly;
+}
+.flex-wrap-col{
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flex-wrap-col-reverse{
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flex-wrap-col-between{
+    flex-wrap: wrap;
+    display: flex;
+}
+

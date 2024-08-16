@@ -1,0 +1,142 @@
+.title-primary {
+  color: #1c2b4b;
+  font-family: 'Raleway';
+  font-size: 3.2rem;
+  font-weight: 900;
+  letter-spacing: 0.3px !important;
+  margin-bottom: 5px;
+}
+
+.title-secondary {
+  color: #92bf21;
+  font-family: 'Raleway';
+  font-size: 3.2rem;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.sub-title {
+  color: #1c2b4b;
+  font-family: 'Raleway';
+  font-size: 1.8rem;
+  font-weight: 900;
+  text-align: left;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+  margin-bottom: 15px;
+}
+
+.sub-sub-title {
+  color: #1c2b4b;
+  font-family: 'Raleway';
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+  margin-bottom: 15px;
+}
+
+.sub-sub-sub-title {
+}
+
+.text {
+  color: #1c2b4b;
+  font-family: Lato;
+  font-size: 1.2rem;
+  text-align: justify;
+  letter-spacing: 0.2px;
+}
+
+.text1 {
+  color: #1c2b4b;
+  font-family: Lato;
+  font-size: 1.2rem;
+  text-align: justify;
+  letter-spacing: 0.2px;
+
+  /* Styles pour la troncature du texte avec des points de suspension */
+  max-height: 9em;
+  /* Hauteur maximale en fonction du nombre de lignes */
+  position: relative;
+  overflow: hidden;
+}
+.text1 {
+  color: #1c2b4b;
+  font-family: Lato;
+  font-size: 1.2rem;
+  text-align: justify;
+  letter-spacing: 0.2px;
+
+  /* Styles pour la troncature du texte avec des points de suspension */
+  max-height: 9em; /* Hauteur maximale en fonction du nombre de lignes */
+  position: relative;
+  overflow: hidden;
+}
+.text-white {
+  color: white;
+  font-family: Lato;
+  font-size: 1.2rem;
+  text-align: justify;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+
+.text-footer {
+}
+
+.text-black {
+  color: black;
+  font-family: Lato;
+  font-size: 1rem;
+  text-align: justify;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  max-width: 30rem;
+}
+
+.banner-text {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42%;
+  margin-top: 50px;
+  padding-left: 5rem;
+}
+
+.banner-text2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  margin-top: 20px;
+}
+
+.text-canneaux {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25%;
+}
+
+.benifice-text {
+  margin-left: 0;
+  margin-right: auto;
+  max-width: 62%;
+  margin-top: 50px;
+  padding-left: -8rem;
+}
+
+.aboutus-text {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.aboutus-text-type2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+  margin-top: 3rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}

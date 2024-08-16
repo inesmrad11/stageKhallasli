@@ -1,0 +1,235 @@
+.nav-item.selected::before {
+  width: 100%;
+}
+
+.nav-item {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.3px;
+  padding-inline: 5px;
+}
+
+.nav-item {
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  transform: translateY(-90%);
+  transition: all 0.5s;
+  top: 0;
+  left: 0;
+
+  &:hover {
+    transform: translateY(0);
+  }
+}
+
+.sticky {
+  transform: translateY(0);
+}
+
+.nav-item::before {
+  content: '';
+  background-color: #93c021;
+  transition: width 0.4s ease-out;
+  width: 0%;
+  height: 2px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+}
+
+.nav-link.selected::before {
+  border: none;
+  color: #93c021;
+  background-color: transparent;
+}
+
+.nav-link {
+  position: relative;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #1c2a4b;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.nav-item:hover::before {
+  width: 100%;
+}
+
+.btn-signup {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-inline: 20px;
+  color: #1c2a4b;
+  border: 2px solid #93c021;
+  border-radius: 10px;
+  transition: border-color 0.3s ease-in-out;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.btn-signup-mobile {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  color: #1c2a4b;
+  border: 2px solid #93c021;
+  border-radius: 10px;
+  transition: border-color 0.3s ease-in-out;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.2px;
+  width: 150px;
+}
+
+.btn-signin {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-inline: 30px;
+  color: white;
+  background-color: #93c021;
+  border-radius: 10px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.btn-signin-mobile {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #93c021;
+  border-radius: 10px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.btn-green-outline {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-inline: 20px;
+  color: #93c021;
+  border: 2px solid #93c021;
+  border-radius: 10px;
+  transition: border-color 0.3s ease-in-out;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.btn-blue-outline {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-inline: 20px;
+  color: #1c2a4b;
+  border: 2px solid #1c2a4b;
+  border-radius: 10px;
+  transition: border-color 0.3s ease-in-out;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.btn-green-filled {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-inline: 30px;
+  color: white;
+  background-color: #93c021;
+  border-radius: 10px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.flex-item {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.iframe-youtube {
+  width: 35rem !important;
+  height: 20rem;
+  border-radius: 11px;
+  background-color: #f0f0f0;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  color: #333;
+  font-weight: bold;
+}
+
+.box-outline {
+  border-radius: 10px;
+  border: solid #052651;
+  background: #fafcff;
+  font-family: Raleway;
+  font-size: 2rem;
+  font-weight: 600;
+  background-blend-mode: normal;
+  width: 25%;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.box-rounded {
+  position: relative;
+  margin-top: 100px;
+  padding-top: 1.7rem;
+  width: 80%;
+  height: 300.3px;
+  border-radius: 10px;
+  background: #202135;
+  background-blend-mode: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.svg-center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.2rem;
+  margin-top: 4rem;
+}
+
+.container-footer {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-rounded-text {
+  max-width: 55%;
+}

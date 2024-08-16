@@ -1,0 +1,155 @@
+.img-banner-section1 {
+  max-width: 647.28px;
+  width: 100%;
+  height: 684px;
+  margin: auto;
+}
+
+.img-banner-details {
+  height: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+<<<<<<< HEAD =======>>>>>>>design-pos .bg-section1 {
+  padding-bottom: 15em;
+  margin-top: 5em;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../uploads/backgrounds/bg-1-3x.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  align-items: center;
+}
+.bg-section-offre {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../uploads/backgrounds/Nos\ canaux\ background\ droite-8.png');
+  background-repeat: no-repeat;
+  background-position: bottom -10px right 0px;
+  background-size: 60rem;
+  padding-bottom: 10rem;
+}
+
+.bg-section-cannaux-left {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../uploads/backgrounds/nos\ canaux\ background\ gauche-8.png');
+  background-repeat: no-repeat;
+  background-position: bottom 0px left 0px;
+  background-size: 20rem;
+  padding-bottom: 1rem;
+}
+
+.bg-section-cannaux-right {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../uploads/backgrounds/Nos\ canaux\ background\ droite-8.png');
+  background-repeat: no-repeat;
+  background-position: top 1rem right 0px;
+  background-size: 50rem;
+  padding-top: 1rem;
+}
+.bg-section-marketplace {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../uploads/backgrounds/qui\ sommes\ nous\ bg-01-01.png');
+  background-repeat: no-repeat;
+  background-position: top 10rem left 0px;
+  background-size: 70rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.separator-footer {
+  width: 100%;
+  height: 15rem;
+  background-image: url('../uploads/backgrounds/bg\ footer-8.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.img-noscannaux-web {
+  max-width: 318px;
+  width: 100%;
+  height: 295px;
+  background: url('../uploads/images/web.png') no-repeat;
+  margin: auto;
+}
+
+.img-noscannaux-api {
+  max-width: 449px;
+  width: 100%;
+  height: 395px;
+  background: url('../uploads/images/api.png') no-repeat;
+  margin: auto;
+}
+
+.img-noscannaux-mobile {
+  max-width: 371px;
+  width: 100%;
+  height: 395px;
+  background: url('../uploads/images/mobile\ TPE-8.png') no-repeat;
+  margin: auto;
+}
+
+.img-noscannaux-borne {
+  max-width: 449px;
+  width: 100%;
+  height: 495px;
+  background: url('../uploads/images/BORNE.png') no-repeat;
+  /* background: url('../uploads/GIFS/Borne Illustration - V2-1.gif') no-repeat; */
+  margin: auto;
+  align-items: center;
+}
+
+.bg-noscannaux {
+  position: relative;
+  top: -50px;
+  left: 0;
+  right: 0;
+  background-image: url('../uploads/backgrounds/nos-cannaux-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  align-items: center;
+}
+
+.img-benifice {
+  max-width: 549px;
+  width: 100%;
+  height: 495px;
+  background: url('../uploads/images/benifice.png') no-repeat;
+  margin: auto;
+  align-items: center;
+}
+
+/* .bg-section1 img {
+  object-fit: fill;
+  object-position: center;
+  width: 100%;
+  height: 90%;
+} */
+
+.img-marketplace {
+  position: relative;
+  left: 65rem;
+  right: 0;
+  bottom: 20rem;
+  width: 320px;
+  max-width: 650px;
+  max-height: 800px;
+  align-items: center;
+}
